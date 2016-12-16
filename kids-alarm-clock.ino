@@ -147,7 +147,7 @@ void getWeatherAndTime() {
     lcd.write(byte(0));
     lcd.print("F");
 
-    if (jsonObject["current_hour"] == 13) {
+    if (jsonObject["current_hour"] == 7) {
       digitalWrite(LED_PIN, HIGH);
     } else {
       digitalWrite(LED_PIN, LOW);

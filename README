@@ -1,0 +1,1 @@
+This is an Arduino-based script for a NodeMCU ESP8266 board for display the time, weather, and turning off and on an LED based on the time of day.
